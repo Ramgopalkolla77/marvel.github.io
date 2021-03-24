@@ -10,6 +10,7 @@ import { DetailsComponent } from '../details/details.component';
 export class GeneralCardComponent implements OnInit {
   constructor(private matDialog: MatDialog) {}
   matDialogRef: MatDialogRef<DetailsComponent>;
+  
   @Input() data;
 
   ngOnInit(): void {
