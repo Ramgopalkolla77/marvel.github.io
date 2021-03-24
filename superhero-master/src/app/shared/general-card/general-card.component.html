@@ -1,0 +1,18 @@
+<mat-card class="general-card" color="secondary">
+  <mat-card-header class="header">
+    <mat-card-title *ngIf="data?.title">{{ data?.title }}</mat-card-title>
+    <mat-card-title *ngIf="data?.name">{{ data?.name }}</mat-card-title>
+  </mat-card-header>
+  <img
+    class="header-image"
+    mat-card-image
+    src="{{ data?.thumbnail?.path }}.jpg"
+  />
+  <!-- <mat-card-content> 
+    <p class="description" *ngIf = 'data?.description'>{{data?.description}}</p>
+    <p class="description" *ngIf = '!data?.description'>Description not present for this.</p>
+  </mat-card-content> -->
+  <mat-card-actions>
+    <a mat-button (click)="detailsPopup(data)">Details</a>
+  </mat-card-actions>
+</mat-card>

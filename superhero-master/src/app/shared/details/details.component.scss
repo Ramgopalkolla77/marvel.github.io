@@ -1,0 +1,14 @@
+.header-image {
+  width: 350px;
+}
+
+.right-side .mat-figure {
+  display: inline !important;
+  flex-direction: column !important;
+  align-items: flex-start;
+}
+
+.left-side, .right-side {
+  width: 50%;
+  float: left;
+}

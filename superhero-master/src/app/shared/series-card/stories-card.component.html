@@ -1,0 +1,21 @@
+<mat-card class="general-card" color="secondary">
+  <mat-card-header class="header">
+    <mat-card-title *ngIf="data?.type" style="text-transform: capitalize">{{
+      data?.type
+    }}</mat-card-title>
+  </mat-card-header>
+  <!-- <img class="header-image"
+      mat-card-image
+      src="https://picsum.photos/seed/picsum/200/300.jpg"
+    /> -->
+  <mat-card-content>
+    <p class="description" *ngIf="data?.title">{{ data?.title }}</p>
+
+    <p class="description" *ngIf="data?.title">
+      <b>Modified On</b> <br />{{ data?.modified | date }}
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <!-- <a mat-button href='{{data?.urls[0]?.url}}' target="_blank">Details</a> -->
+  </mat-card-actions>
+</mat-card>

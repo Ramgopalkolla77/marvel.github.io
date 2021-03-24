@@ -1,0 +1,33 @@
+.general-card {
+  justify-content: space-evenly;
+  float: left;
+  text-align: left;
+  position: flex;
+  align-content: center;
+  width: 20%;
+  min-height: 245px;
+  margin: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  .header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+  }
+  .header-image {
+    height: 180px;
+    // width: fit-content;
+  }
+  .description {
+    // height: 60px;
+    // font-size: 14px;
+    // line-height: 21px;
+    // overflow: hidden;
+    // text-overflow: ellipsis;
+    // white-space: nowrap;
+    // color: white;
+    // display: flex;
+    // align-items: center;
+  }
+}

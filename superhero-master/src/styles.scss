@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+.right-side .mat-figure{
+    display: inline !important;
+    flex-direction: column !important;
+    align-items: flex-start;
+}
+
+.mat-toolbar.mat-primary {
+    background: #1f35a2 !important;
+    color: #fff !important;
+}
